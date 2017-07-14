@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0; font-family:"微软雅黑";}
+a{text-decoration:none; color:#CCC}
+li{ list-style:none}
+
+.top{ height:70px; width:100%; background-color:rgb(51,51,51);}/*头部内容*/
+.logo{ height:70px; width:800px; text-align:center; float:left;background-color:rgb(51,51,51)}
+.topright{ height:70px; width:800px; float:left; color:#ccc;background-color:rgb(51,51,51)}
+.topright ul li{ margin-left:50px; line-height:70px; width:100px; height:70px; text-align:center; float:left; color:#CCC}
+.topright ul li:hover{ background-color:#000;}
+.bg{ height:300px; width:100%; background:url(../image/background1.jpg)}
+.zixun1{ padding-left:365px; padding-top:120px; font-size:34px; color:white}
+.zixun2{ padding-left:365px; font-size:20px; color:white}
+
+.left{ height:1200px; width:900px;margin-left:320px; margin-top:30px; float:left;}/*主体内容开始*/
+.yuding{ height:60px; width:900px; border:2px;border-bottom-color:#999; border-bottom-style:dotted; float:left}
+.jp{ font-size:30px; color:#666; line-height:50px}
+.viewline{ height:30px; width:900px; float:left}
+.viewline ul li{ float:left; color:#666; line-height:30px; font-size:20px}
+.box2{background-color:#0C0;border-radius:3px; text-align:center; margin-left:15px; font-size:20px}
+.box3{ text-align:center; margin-left:15px;color:#666; line-height:30px; font-size:20px}
+.airline{ height:150px; width:750px; float:left; line-height:60px}
+.airline ul li{ height:50px; width:350px; float:left; margin-top:15px}
+.airline ul li span{ font-size:18px; color:#666}
+.airline ul li input{ height:40px;width:240px; margin-left:10px; border-radius:5px; border:1px solid #ccc; font-size:110%}
+.anniu{ height:150px; width:150px; float:left;}
+.anniu input{ height:100px; width:100px; background-color:rgb(255,102,0); margin-top:30px; color:white; border-radius:5px; border:none; font-size:18px}
+.newest{ height:60px; width:900px; float:left; margin-top:15px; border-bottom:2px; border-bottom-color:#666; border-bottom-style:dotted;}
+.city{ height:30px; width:900px; float:left; margin-top:15px}
+.city ul li{ float:left; line-height:30px;}
+.box4{ text-align:center;color:#666; line-height:30px; font-size:20px}
+.biaoge{ height:720px; width:900px; float:left;}
+.biaoge table{ margin-top:20px; border:1px solid #CCC;border-collapse:collapse;}
+.biaoge table td{ text-align:center; border:1px solid #ccc; color:#666}
+.biaoge table tr:nth-child(2n+1){ background-color:rgb(242,252,251)}
+.biaoge table tr:first-child{background:#fff;}
+.biaoge table tr:last-child{background:#fff;}
+.money{ color:rgb(255,102,0)}/*主体内容结束*/
+.right{ height:1200px; width:340px; float:left; margin-top:30px; margin-left:15px}/*右边导航栏内容*/
+.righttop{ height:340px; width:340px; border:1px solid #ccc}
+.view{ width:338px; height:40px; line-height:40px; background:rgb(250,250,250); color:#666}
+.jd{ padding-left:5px; font-size:20px}
+.allview{ height:300px; width:338px}
+.allview ul li{width:92px;height:34px;float:left;margin: auto 8px;margin-top:7px;background:rgb(238,238,238);color:#666;line-height:35px;text-align:center;}
+.rightmiddle{ height:678px; width:340px; border:1px solid #CCC; margin-top:5px}
+.hotplay{ height:638px; width:338px}
+.hotplay ul li{width:150px;height:150px;float:left;margin-top:5px; margin-left:5px; text-align:center; color:#999}
+.hotplay ul li img{ height:120px; width:150px}
+.rightbottom{ height:150px; width:340px; border:1px solid #CCC; margin-top:5px}
+.baibaoxiang{ height:110px; width:340px}
+.baibaoxiang ul li{ width:150px;height:40px;float:left;margin-top:5px; margin-left:8px; background:rgb(238,238,238); color:#999}
+.baibaoxiang ul li img{ padding-top:10px; padding-left:5px}
+.chaxun{ margin-top:-27px; margin-left:30px} /*导航栏结束*/
+
+.faq{ height:280px; width:100%; background-color:rgb(34,34,34); margin-top:10px; clear:left; color:#CCC}/* 尾部内容开始*/
+.faq0{ height:280px; width:1320px; margin-left:360px; margin-top:15px}
+.faq1{ height:280px; width:410px; float:left; line-height:40px; font-size:18px; }
+.xuxian{ border:1px dotted; color:#666}
+.partner{ font-size:30px; line-height:50px}
+.copyright{ height:80px; width:100%; float:left; background-color:#000; border-top:1px solid #666}
+.cpr1{ font-size:18px; color:#999; line-height:80px; text-align:center}/*版权*/

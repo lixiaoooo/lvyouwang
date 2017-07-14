@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; font-family:"微软雅黑"; }
+a{ color:#CCC; text-decoration:none;}
+li{ list-style:none; color:#ccc}
+.top{ height:70px; width:1920px; background-color:rgb(51,51,51);}
+.logo{ height:70px; width:930px; text-align:center; float:left}
+.topright{ height:70px; width:990px; float:left}
+.topright ul li{ margin-left:80px; line-height:70px; width:100px; height:70px; text-align:center; float:left;}
+.topright ul li:hover{ background-color:#000;}
+.bg{ height:600px; width:1920px; background:url(../image/background.jpg)}
+.suoshuo{ text-align:center; line-height:600px;}
+.search1{width:560px; height:60px; border-radius:10px; font-size:24px;}
+.search2{ height:64px; width:140px; font-size:24px; color:#666; border-radius:10px}
+.middletop{ height:150px; width:1920px; text-align:center; line-height:70px}
+.remen{ font-size:36px; color:#666}
+.shinian{ line-height:30px; color:#666}
+.picture{ text-align:center}
+.mangu{ color:black}
+.middlebottom{ height:1040px; width:1230px; margin:0 auto}
+.piece{ height:320px; width:390px; border:1px solid #CCC; margin:0 auto; float:left; margin:8px; border-radius:5px}
+.price{ height:40px; width:195px; float:left; line-height:58px; color:red; font-size:18px}
+.manyidu{ height:40px; width:195px; float:left; text-align:right; line-height:58px}
+.faq{ height:280px; width:1920px; background-color:rgb(34,34,34); margin-top:10px; clear:left;}
+.faq0{ height:280px; width:1320px; margin-left:350px; padding:20px}
+.faq1{ height:280px; width:400px; padding-top:15px; float:left; line-height:40px; font-size:18px; }
+.xuxian{ border:1px dotted; color:#666}
+.partner{ font-size:30px; line-height:50px}
+.copyright{ height:80px; width:1920px; border:1px solid #33C}
+.cpr1{ font-size:18px; line-height:80px; text-align:center}
